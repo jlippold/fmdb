@@ -814,6 +814,10 @@
 				GCC_WARN_SHADOW = YES;
 				INSTALL_PATH = "$(HOME)/bin";
 				LIBRARY_SEARCH_PATHS = "$(LIBRARY_SEARCH_PATHS)";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DFMDB_SQLITE_STANDALONE",
+				);
 				PRODUCT_NAME = fmdb;
 			};
 			name = Debug;
@@ -835,6 +839,10 @@
 				GCC_WARN_SHADOW = YES;
 				INSTALL_PATH = "$(HOME)/bin";
 				LIBRARY_SEARCH_PATHS = "$(LIBRARY_SEARCH_PATHS)";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DFMDB_SQLITE_STANDALONE",
+				);
 				PRODUCT_NAME = fmdb;
 			};
 			name = Release;
